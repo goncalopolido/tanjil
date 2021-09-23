@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=0.7" name="viewport">
+<meta name="author" content="tanjil">
+<meta name="tema-color" content="#2f3136">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="nuvem.es" />
+<meta name="twitter:description" content="🤨" />
+<title>tsk website</title>
+<link rel="icon" href="img/icon.png">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Poppins:700&display=swap" rel="stylesheet">
+<link href="css/tema.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js" async defer></script>
+<script src="js/dark.js" type="application/javascript" async defer></script>
+</head>
+<body>
+<main>
+<div id="container" style="text-align: center;">
+<h1>tanjil.tk</h1>
+<h2>"sou o tarzan angolano"</h2>
+<h3><a id="toggle" href="&nbsp;"><img src="img/imagem.jpg"></a></h3>
+<footer>
+<p>links</p>
+<ul id="links">
+  <li><a href="https://github.com/8fn">github/8fn</a></li>
+<li><a href="https://open.spotify.com/user/r1fsm8bhowed55sxsw1qceiii">spotify/tanjil</a></li>
+<li><a href="https://steamcommunity.com/id/tanjil/">steam/tajil</a></li>
+               
+</ul>
+</footer>
+</div>
+</main>
+<script>
+    if (document.cookie.indexOf('dark=1') != -1) {
+      $('head').append('<link rel="stylesheet" href="css/tema-dark.css" type="text/css" />');
+    } else {
+      $("link[href='css/tema-dark.css']").remove();
+    }
+  </script>
+</body>
+</html>
