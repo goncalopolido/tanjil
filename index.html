@@ -1,0 +1,58 @@
+<!-- todos os créditos reservados a https://nuvem.art -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=0.7" name="viewport">
+        <meta name="author" content="tanjil">
+        <meta name="tema-color" content="#36393f">
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="tanjil.tk" />
+        <meta name="twitter:description" content="🤨" />
+        <title>tsk website</title>
+        <link rel="shortcut icon" href="https://i.imgur.com/IiM0hTD.jpg">
+        <meta property="og:image" content="https://i.imgur.com/IiM0hTD.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poppins:700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.4;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">toca para entrar</span>
+                    <span class="hover" style="font-family: mono; font-size: 0.6em;">clica para entrar</span>
+                </label>
+            </div>
+            <audio loop="" preload="auto" id="audio">
+                <source src="assets/audio/audio.mp3" type="audio/mp3">
+            </audio>
+            <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="assets/img/bg.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">tanjil</h1>
+                <p style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">embrace strength, reject weakness</p>
+                -
+                <div class="socials">
+                    <a href="https://github.com/8fn" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">github</a>
+                    /
+                    <a href="https://open.spotify.com/user/r1fsm8bhowed55sxsw1qceiii" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">spotify</a>
+                    /
+                    <a href="https://steamcommunity.com/id/tanjil/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">steam</a>
+            </div>
+        </main>
+    
+</body>
+</html>
